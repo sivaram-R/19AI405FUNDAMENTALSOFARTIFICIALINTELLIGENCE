@@ -55,7 +55,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 </ol></B>
 
 <h3>Program:</h3>
-```
+
 #import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
@@ -78,8 +78,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-```
-<hr>
+
 <h3>Sample Input</h3>
 <hr>
 8 9 <BR>
@@ -115,7 +114,7 @@ F H <BR>
 
 <hr>
 <h3>Output:</h3>
-![EXP1](https://github.com/sivaram-R/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/121165794/126935b6-7855-4645-ab2a-b7abdf195fdb)
+![EXP1](https://github.com/sivaram-R/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/121165794/3e9a7688-2f86-49fc-9c39-d29c8fb04261)
 
 <h3>Result:</h3>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
