@@ -1,7 +1,7 @@
 <h1>ExpNo 6 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
 
-## Name: JEEVAGOWTHAM S
-## Register Number: 212222230053
+## Name: SIVARAM R
+## Register Number: 212222100050
 <H3>Aim:</H3>
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
