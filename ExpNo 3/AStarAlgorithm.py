@@ -88,13 +88,13 @@ graph = defaultdict(list)
 n,e = map(int,input().split())
 for i in range(e):
     u,v,cost = map(str,input().split())
-    t=(v,int(cost))
+    t=(v,float(cost))
     graph[u].append(t)
-    t1=(u,int(cost))
+    t1=(u,float(cost))
     graph[v].append(t1)
 for i in range(n):
     node,h=map(str,input().split())
-    H_dist[node]=int(h)
+    H_dist[node]=float(h)
 print(H_dist)
 
    

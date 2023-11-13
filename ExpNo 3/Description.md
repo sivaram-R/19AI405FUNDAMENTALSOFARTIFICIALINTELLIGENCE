@@ -1,6 +1,6 @@
 <h1>ExpNo 3 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:Sivaram R</h3>
-<h3>Register Number212222100050</h3>
+<h3>Name: JEEVAGOWTHAM S</h3>
+<h3>Register Number: 212222230053</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -21,7 +21,7 @@
    
     d) for each successor
         i) if successor is the goal, stop search
-        
+        ```
         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
@@ -42,73 +42,26 @@
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
      end (for loop)
-  
+    ```  
     e) push q on the closed list
     end (while loop)
+   
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
+![image](https://github.com/Saibandhavi75/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94208895/d4679838-4189-4a13-a0d0-f5e91867b064)
 
-<hr>
-<h2>Sample Input</h2>
-<hr>
-10 14 <br>
-A B 6 <br>
-A F 3 <br>
-B D 2 <br>
-B C 3 <br>
-C D 1 <br>
-C E 5 <br>
-D E 8 <br>
-E I 5 <br>
-E J 5 <br>
-F G 1 <br>
-G I 3 <br>
-I J 3 <br>
-F H 7 <br>
-I H 2 <br>
-A 10 <br>
-B 8 <br>
-C 5 <br>
-D 7 <br>
-E 3 <br>
-F 6 <br>
-G 5 <br>
-H 3 <br>
-I 1 <br>
-J 0 <br>
-<hr>
-<h2>Sample Output</h2>
-<hr>
-Path found: ['A', 'F', 'G', 'I', 'J']
+# Input & Output 1:
+![image](https://github.com/Saibandhavi75/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94208895/274755ef-4695-49e8-8cf1-1a0d28b8685b)
 
 
-<hr>
-<h2>Sample Graph II</h2>
-<hr>
+# Sample Graph II
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
+![image](https://github.com/Saibandhavi75/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94208895/e890b350-3953-4ec9-a938-241605e84bfe)
 
+# Input & Output 2:
+![image](https://github.com/Saibandhavi75/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94208895/37b9fe97-9126-4a07-b370-1ae43cd6c4f6)
 
-<hr>
-<h2>Sample Input</h2>
-<hr>
-6 6 <br>
-A B 2 <br>
-B C 1 <br>
-A E 3 <br>
-B G 9 <br>
-E D 6 <br>
-D G 1 <br>
-A 11 <br>
-B 6 <br>
-C 99 <br>
-E 7 <br>
-D 1 <br>
-G 0 <br>
-<hr>
-<h2>Sample Output</h2>
-<hr>
-Path found: ['A', 'E', 'D', 'G']
+# Result;
+Thus, a Graph was constructed, and the implementation of the A* algorithm for the same graph was executed successfully. The algorithm found the shortest path from the start node to the stop node, demonstrating its effectiveness in solving pathfinding problems.
